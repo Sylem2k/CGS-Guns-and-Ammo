@@ -1,0 +1,73 @@
+GenericEntity : "{0DA72C5EBAAA9F8A}Prefabs/Weapons/Handguns/M9/LasPistol_Base.et" {
+ coords 4911.466 28.594 11856.344
+}
+GenericEntity : "{2058187E5777DE28}Prefabs/Weapons/Rifles/Bastion/Lucius_AR.et" {
+ coords 4913.275 28.611 11839.73
+}
+GenericEntity : "{2288B3095AE283B6}Prefabs/Weapons/Rifles/Bastion/Lucius_DMR.et" {
+ coords 4906.872 28.594 11846.691
+}
+GenericEntity : "{22F1579A6FC2A243}Prefabs/Weapons/Rifles/Bastion/Krieg_SMG.et" {
+ coords 4908.29 28.594 11847.923
+}
+GenericEntity : "{270BAE92DFC676DB}Prefabs/Weapons/Rifles/Bastion/Lucius_Hellgun.et" {
+ coords 4913.148 28.594 11852.68
+}
+GenericEntity : "{2F1EB150E99F0193}Prefabs/Weapons/Rifles/Cinder/SL_Hellgun.et" {
+ coords 4912.503 28.594 11844.023
+}
+GenericEntity : "{323FA98C8B364CA8}Prefabs/Weapons/Rifles/Errant/Errant_Longlas.et" {
+ coords 4909.23 28.594 11846.824
+}
+GenericEntity : "{3AC8A2639492E31B}Prefabs/Weapons/Rifles/Fleet/Fleet_Shotgun.et" {
+ coords 4903.726 28.595 11848.876
+}
+GenericEntity : "{3AD73622F5956157}Prefabs/Weapons/Rifles/Admech/Ark_Rifle.et" {
+ coords 4915.383 28.594 11854.354
+}
+GenericEntity : "{3AF4E16DCBE521C7}Prefabs/Weapons/Rifles/Fleet/Thillium_Longlas.et" {
+ coords 4901.938 28.594 11840.309
+}
+GenericEntity : "{3C4E5CBA6B90A47E}Prefabs/Weapons/Rifles/Fleet/Bolter.et" {
+ coords 4905.783 28.594 11853.946
+}
+GenericEntity : "{41D76AE019CC18BF}Prefabs/Weapons/Handguns/Errant/Errant_Hellpistol.et" {
+ coords 4919.322 28.594 11848.182
+}
+GenericEntity : "{49D04BC0B08E2D08}Prefabs/Weapons/Rifles/Kantrael/Kantrael_SMG.et" {
+ coords 4876.588 28.594 11851.644
+}
+GenericEntity : "{4E770AF84C275C64}Prefabs/Weapons/Rifles/Kantrael/Kantrael_Carbine.et" {
+ coords 4889.247 28.594 11854.186
+}
+GenericEntity : "{4F08C108491DC0B0}Prefabs/Weapons/Rifles/Kantrael/Kantrael_AR.et" {
+ coords 4893.191 28.594 11852.943
+}
+GenericEntity : "{52121945A5E29843}Prefabs/Weapons/Rifles/Kantrael/Kantrael_DMR.et" {
+ coords 4883.533 28.594 11852.861
+}
+GenericEntity : "{56CD1178C5A4E48C}Prefabs/Weapons/Rifles/Laslock/Laslock.et" {
+ coords 4895.78 28.594 11848.048
+}
+GenericEntity : "{727FF4D9BE64DC7E}Prefabs/Weapons/Grenades/Grenade_PlushRat.et" {
+ coords 4917.099 28.594 11857.133
+ angles 0 47.144 0
+}
+GenericEntity : "{9C72F0F8F6E50757}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Voss_unfolded.et" {
+ coords 4895.642 28.594 11855.597
+}
+GenericEntity : "{BA3C5BC1DDAE447E}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Sighttest.et" {
+ coords 4892.26 28.593 11865.059
+}
+GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base.et" {
+ coords 4887.317 28.593 11863.498
+}
+GenericEntity : "{E5FA2B6158CD7799}Prefabs/Weapons/Handguns/BoltPistol/bolt pistol_base.et" {
+ coords 4917.335 28.594 11853.521
+}
+GenericEntity : "{E5FC52456834321E}Prefabs/Weapons/Rifles/Hellgun/Hellgun_Base.et" {
+ coords 4902.672 28.595 11846.956
+}
+GenericEntity : "{FFA0401064AA4C43}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_GalaxyCarbine.et" {
+ coords 4878.176 28.593 11863.638
+}

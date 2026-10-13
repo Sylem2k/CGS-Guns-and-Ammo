@@ -1,0 +1,73 @@
+GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{C51B7FF43F0E61C8}Assets/Weapons/Galaxy_Carbine/galaxy_carbine_w_LODs.xob"
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SightsComponent "{BB23A637957CFFF8}" {
+     Enabled 0
+    }
+    SCR_2DPIPSightsComponent "{5C1A77E3B0A90140}" {
+     m_iCameraIndex 9
+     SightsPosition PointInfo "{5C1A77E3B0A90141}" {
+      PivotID "Eye"
+      Offset 0 -0.0436 0
+     }
+     SightsRanges {
+      SightRangeInfo "{5C1A77E3B0A90142}" {
+       Range 0 100
+      }
+      SightRangeInfo "{5C1A77E3B0A90143}" {
+       Range 0.005 300
+      }
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{5C1A77E3B0A90144}" {
+      m_fBaseZoom 1
+      m_fZoomMax 1
+      m_fInterpolationSpeed 50
+     }
+     SightsPointFront PointInfo "{5C1A77E3B0A90145}" {
+      PivotID "Barrel_Muzzle"
+      Offset -0.0006 0.0508 0
+     }
+     SightsPointRear PointInfo "{5C1A77E3B0A90146}" {
+      PivotID "Eye"
+      Offset 0 -0.0436 0.0616
+     }
+     ADSTime 0.35
+     m_sReticleTexture "{5C1A77E3B0A95090}Assets/Weapons/Sights/STC_LongLas/STC_RedDot1x_UI.edds"
+     m_sReticleGlowTexture "{5C1A77E3B0A95090}Assets/Weapons/Sights/STC_LongLas/STC_RedDot1x_UI.edds"
+     m_ReticleColor 1 0.1 0.05 1
+     m_bHasIllumination 1
+     m_cReticleTextureIllumination 1 0.1 0.05 1
+     m_eZeroingType EPZ_RETICLE_OFFSET
+     m_rScopeHDRMatrial "{958809B0DE47E9BF}Assets/Weapons/Attachments/Optics/PSO1/Data/Optic_PSO1_HDR.emat"
+     m_fObjectiveFov 24
+     m_fReticleAngularSize 18.06
+     m_fReticlePortion 1
+     m_fReticleBaseZoom 0
+     m_fMagnification 1
+     m_vCameraOffset 0 0 0.07
+     m_fScopeRadius 0.0077
+    }
+    AttachmentSlotComponent "{69F025C7B97B7438}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      PivotID "Scene_Root"
+      Offset 0.0012 -0.0007 -0.0069
+      Prefab "{7D79321B31AE5DE1}Prefabs/Weapons/Attachments/Optics/Optic_4x20/Optic_lasgun_test.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      PivotID "Slot_Magazine"
+      Offset 0 -0.0559 0.08
+      Angles 0 0 0
+     }
+    }
+   }
+  }
+ }
+ coords -0.143 0 0
+}

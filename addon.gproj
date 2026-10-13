@@ -1,0 +1,8 @@
+GameProject {
+ ID "BFAGunsandammo"
+ GUID "6A12FC98D709757D"
+ TITLE "BFA Guns and ammo"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

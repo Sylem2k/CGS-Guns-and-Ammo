@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1C87FC4E29B7F4BF}Prefabs/Weapons/Magazines/BFA/Magazine_ErrantHellpistol.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

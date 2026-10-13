@@ -1,0 +1,80 @@
+GenericEntity : "{0DA72C5EBAAA9F8A}Prefabs/Weapons/Handguns/M9/LasPistol_Base.et" {
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C45E7271D47}" {
+     components {
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{9D8D204CCCC44A38}Particles/Weapon/Explosion_M112.ptc"
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 1134.002 38.847 2824.648
+}
+GenericEntity : "{7D79321B31AE5DE1}Prefabs/Weapons/Attachments/Optics/Optic_4x20/Optic_lasgun_test.et" {
+ coords 1139.233 38.007 2863.275
+}
+$grp GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+ {
+  coords 1134.019 38 2822.749
+ }
+ {
+  coords 1134.038 38.004 2823.769
+ }
+ {
+  coords 1134.06 38.011 2824.792
+ }
+ {
+  coords 1134.07 38 2825.818
+ }
+}
+GenericEntity : "{9C72F0F8F6E50757}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Voss_unfolded.et" {
+ coords 1143.278 38.009 2845.697
+}
+GenericEntity : "{BA3C5BC1DDAE447E}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Sighttest.et" {
+ coords 1139.181 38.214 2862.75
+}
+$grp GenericEntity : "{C2C4640F7C758A14}Prefabs/Weapons/Magazines/boltmag.et" {
+ {
+  coords 1144.436 38 2862.637
+ }
+ {
+  coords 1144.981 38 2861.465
+ }
+ {
+  coords 1144.059 38 2863.663
+ }
+}
+$grp GenericEntity : "{E5FA2B6158CD7799}Prefabs/Weapons/Handguns/BoltPistol/bolt pistol_base.et" {
+ {
+  coords 1143.273 38 2862.209
+ }
+ {
+  coords 1144.964 38 2863.949
+ }
+}
+GenericEntity : "{E5FC52456834321E}Prefabs/Weapons/Rifles/Hellgun/Hellgun_Base.et" {
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     WeaponAimModifiers {
+      RecoilWeaponAimModifier "{6A08383D623C1B9C}" {
+       LinearData RecoilData "{6A08383D623C1B9E}" {
+        "Base Recoil Scale" 0.5
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 1134.012 39.11 2823.615
+ angles 0 83.916 0
+}
+GenericEntity : "{FFA0401064AA4C43}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_GalaxyCarbine.et" {
+ coords 1146.017 38.009 2847.091
+}

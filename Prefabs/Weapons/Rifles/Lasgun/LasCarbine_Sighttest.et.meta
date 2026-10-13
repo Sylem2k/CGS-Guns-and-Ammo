@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BA3C5BC1DDAE447E}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Sighttest.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

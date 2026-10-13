@@ -1,0 +1,74 @@
+GenericEntity : "{0DA72C5EBAAA9F8A}Prefabs/Weapons/Handguns/M9/LasPistol_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{32A2EBA7950FCC89}Assets/Weapons/Errant_Hellpistol/errant hellpistol_w_LODs.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB0701437228}" {
+     Name "Errant Hellpistol"
+     Description "Errant pattern hellpistol sidearm."
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SightsComponent "{BB23A637957CFFF8}" {
+     Enabled 0
+    }
+    SCR_2DPIPSightsComponent "{5C1A77E3B0A90180}" {
+     m_iCameraIndex 9
+     SightsPosition PointInfo "{5C1A77E3B0A90181}" {
+      PivotID "eye"
+      Offset 0 -0.0149 0
+     }
+     SightsRanges {
+      SightRangeInfo "{5C1A77E3B0A90182}" {
+       Range 0 100
+      }
+      SightRangeInfo "{5C1A77E3B0A90183}" {
+       Range 0.005 300
+      }
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{5C1A77E3B0A90184}" {
+      m_fBaseZoom 1
+      m_fZoomMax 1
+      m_fInterpolationSpeed 50
+     }
+     SightsPointFront PointInfo "{5C1A77E3B0A90185}" {
+      PivotID "barrel_muzzle"
+      Offset -0.0019 0.05 0
+     }
+     SightsPointRear PointInfo "{5C1A77E3B0A90186}" {
+      PivotID "eye"
+      Offset 0 -0.0149 0.085
+     }
+     ADSTime 0.35
+     m_sReticleTexture "{5C1A77E3B0A95090}Assets/Weapons/Sights/STC_LongLas/STC_RedDot1x_UI.edds"
+     m_sReticleGlowTexture "{5C1A77E3B0A95090}Assets/Weapons/Sights/STC_LongLas/STC_RedDot1x_UI.edds"
+     m_ReticleColor 1 0.1 0.05 1
+     m_bHasIllumination 1
+     m_cReticleTextureIllumination 1 0.1 0.05 1
+     m_eZeroingType EPZ_RETICLE_OFFSET
+     m_rScopeHDRMatrial "{958809B0DE47E9BF}Assets/Weapons/Attachments/Optics/PSO1/Data/Optic_PSO1_HDR.emat"
+     m_fObjectiveFov 24
+     m_fReticleAngularSize 18.06
+     m_fReticlePortion 1
+     m_fReticleBaseZoom 0
+     m_fMagnification 1
+     m_vCameraOffset 0 0 0.028
+     m_fScopeRadius 0.0106
+    }
+    MuzzleComponent "{50F64C45E7271D47}" {
+     MagazineTemplate "{1C87FC4E29B7F4BF}Prefabs/Weapons/Magazines/BFA/Magazine_ErrantHellpistol.et"
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Errant Hellpistol"
+    Description "Errant pattern hellpistol sidearm."
+    Icon ""
+   }
+  }
+ }
+}

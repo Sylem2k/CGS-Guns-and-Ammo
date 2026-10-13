@@ -1,0 +1,43 @@
+GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{69F025C7B97B2772}" {
+     AttachmentSlot InventoryStorageSlot BayonetSlot {
+      PivotID "Scene_Root"
+      Offset 0 0 0
+     }
+    }
+    AttachmentSlotComponent "{69F025C7B97B7438}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      PivotID "Scene_Root"
+      Prefab "{7D79321B31AE5DE1}Prefabs/Weapons/Attachments/Optics/Optic_4x20/Optic_lasgun_test.et"
+     }
+    }
+    SCR_2DPIPSightsComponent "{BB23A637957CFFF8}" {
+     Enabled 0
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      PivotID "Eye"
+     }
+     SightsFOVInfo SCR_FixedFOVInfo "{69F029E076A20B7C}" {
+     }
+     SightsPointFront PointInfo "{69F025C7B97AB6F9}" {
+      PivotID "Eye"
+      Offset 0 0 -0.4139
+     }
+     SightsPointRear PointInfo "{69F025C7B97AB6FB}" {
+      PivotID "Eye"
+      Offset 0 0 -0.0705
+     }
+     m_sReticleTexture "{C6C50326F6FD4397}UI/Textures/Sights/4x20/4x201024_UI.edds"
+     m_sReticleGlowTexture "{C6C50326F6FD4397}UI/Textures/Sights/4x20/4x201024_UI.edds"
+     m_bHasIllumination 1
+     m_fReticleOffsetX 0.00001
+     m_fReticleOffsetY 0.00001
+    }
+   }
+  }
+ }
+ coords -0.217 -0.555 1.954
+}

@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{D9217C0504AF4E13}Prefabs/Weapons/Magazines/Data/textures mag bolt/magazine_BCR.edds"
+ NMOMap "{E1F9C797DDD81C8D}Prefabs/Weapons/Magazines/Data/textures mag bolt/magazine_NMO.edds"
+}

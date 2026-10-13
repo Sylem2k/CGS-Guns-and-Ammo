@@ -1,0 +1,61 @@
+GenericEntity : "{E5FA2B6158CD7799}Prefabs/Weapons/Handguns/BoltPistol/bolt pistol_base.et" {
+ ID "3C4E5CBA6B90A47E"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{D7CE4321EB0B9B54}Assets/Weapons/Bolter_Thicc/bolt pistol thiccccc.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB0701437228}" {
+     Name "Bolter"
+     Description "Fleet-pattern bolter. One-handed, .75 caliber mass-reactive shells."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{69F40C307264B28B}" {
+     Weight 5.5
+     ItemVolume 900
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      PivotID "eye"
+      Offset 0 0 0
+     }
+    }
+    MuzzleComponent "{50F64C45E7271D47}" {
+     components {
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       EffectPosition EntitySlotInfo "{513A9384CEFB83CB}" {
+        PivotID "barrle_chamber"
+        Offset 0 0.01 -0.025
+        Angles 0 90 0
+       }
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{B80A64F4B6CFB9BF}" {
+       PivotID "barrel_muzzle"
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F64C476EC435CA}" {
+       PivotID "barrel_muzzle"
+      }
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      PivotID "slot_magazine"
+      Offset 0 0 0
+     }
+     MagazineTemplate "{73AD64065268A2A7}Prefabs/Weapons/Magazines/Magazine_Bolter.et"
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Bolter"
+    Description "Fleet-pattern bolter."
+    Icon ""
+   }
+  }
+ }
+}
